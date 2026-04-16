@@ -1,0 +1,30 @@
+{
+  "test_customers": [
+    {
+      "id": "TEST-001",
+      "name": "Test Corp",
+      "email": "test@test.com",
+      "plan": "basic"
+    },
+    {
+      "id": "TEST-002",
+      "name": "Test Inc",
+      "email": "admin@test.com",
+      "plan": "pro"
+    }
+  ],
+  "test_transactions": [
+    {
+      "txn_id": "T-TEST-001",
+      "customer_id": "TEST-001",
+      "amount": 99.0,
+      "status": "completed"
+    },
+    {
+      "txn_id": "T-TEST-002",
+      "customer_id": "TEST-002",
+      "amount": 450.0,
+      "status": "completed"
+    }
+  ]
+}

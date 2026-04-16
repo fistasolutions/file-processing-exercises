@@ -1,0 +1,48 @@
+[2025-04-01 14:30:00] === Batch Rename Script v0.3 ===
+[2025-04-01 14:30:00] Working directory: ./project-files/
+[2025-04-01 14:30:00] Pattern: Add date prefix YYYY-MM-DD to all files
+[2025-04-01 14:30:00] Starting rename operation...
+
+[2025-04-01 14:30:01] OK: "budget-march.pdf" -> "2025-03-01_budget.pdf"
+[2025-04-01 14:30:01] OK: "meeting-notes-feb15.md" -> "2025-02-15_meeting-notes.md"
+[2025-04-01 14:30:01] OK: "client-presentation-jan20.pptx" -> "2025-01-20_presentation.pptx"
+[2025-04-01 14:30:01] OK: "project-timeline-feb.xlsx" -> "2025-02-01_timeline.xlsx"
+[2025-04-01 14:30:02] OK: "design-spec-mar10.md" -> "2025-03-10_design-spec.md"
+[2025-04-01 14:30:02] ERROR: "Q1 Report.pdf" -> "2025-13-45_report.pdf" [Bug: parsed "Q1" as month=13, day=45 - regex matched wrong field]
+[2025-04-01 14:30:02] OK: "2025-01-15_photo-meeting.jpg" -> "2025-01-15_2025-01-15_photo.jpg" [Bug: file already had date prefix, script added another]
+[2025-04-01 14:30:02] OK: "2025-02-03_screenshot-figma.png" -> "2025-02-03_2025-02-03_screenshot.png" [Bug: same double-prefix issue]
+[2025-04-01 14:30:03] OK: "weekly-update-feb01.txt" -> "2025-02-01_.txt" [Bug: regex stripped everything after date, leaving empty name]
+[2025-04-01 14:30:03] OK: "data-export-jan10.csv" -> "2025-01-10_.csv" [Bug: same name-stripping issue]
+[2025-04-01 14:30:03] OK: "retrospective-mar05.md" -> "2025-03-05_.md" [Bug: same name-stripping issue]
+[2025-04-01 14:30:04] ERROR: "vacation-photo.jpg" -> "photo" [Bug: regex removed both the original name prefix AND the extension]
+[2025-04-01 14:30:04] ERROR: "project-document.pdf" -> "document" [Bug: same extension-stripping issue]
+[2025-04-01 14:30:04] ERROR: "expense-spreadsheet.xlsx" -> "spreadsheet" [Bug: same extension-stripping issue]
+[2025-04-01 14:30:05] OK: "monthly-report-mar.pdf" -> "2025-03-01_report.pdf" [WARNING: File already exists! Previous file OVERWRITTEN]
+[2025-04-01 14:30:05] NOTE: Previous "2025-03-01_report.pdf" was originally "budget-analysis-mar.pdf" - THIS FILE IS NOW LOST
+[2025-04-01 14:30:05] OK: "team-offsite-feb28.jpg" -> "2025-02-28_team-offsite.jpg"
+[2025-04-01 14:30:05] OK: "invoice-consulting-jan31.pdf" -> "2025-01-31_invoice-consulting.pdf"
+[2025-04-01 14:30:06] OK: "architecture-diagram-feb20.png" -> "2025-02-20_architecture-diagram.png"
+[2025-04-01 14:30:06] OK: "migration-script-mar01.sql" -> "2025-03-01_migration.sql"
+[2025-04-01 14:30:06] OK: "api-docs-update-feb10.md" -> "2025-02-10_api-docs.md"
+[2025-04-01 14:30:07] OK: "code-review-jan25.txt" -> "2025-01-25_code-review.txt"
+[2025-04-01 14:30:07] OK: "test-results-mar08.txt" -> "2025-03-08_test-results.txt"
+[2025-04-01 14:30:07] OK: "deploy-checklist-feb05.md" -> "2025-02-05_deploy-checklist.md"
+[2025-04-01 14:30:08] ERROR: "status-report-content-dated-2024-06-15.md" -> "2024-06-15_status-report.md" [Bug: extracted date from filename content reference instead of actual file date - should be 2025-03-15]
+[2025-04-01 14:30:08] SKIP: "README.md" -> no date pattern found, skipping
+[2025-04-01 14:30:08] SKIP: "notes-random.txt" -> no date pattern found, skipping
+[2025-04-01 14:30:08] SKIP: "config.yaml" -> no date pattern found, skipping
+
+[2025-04-01 14:30:09] === Rename Complete ===
+[2025-04-01 14:30:09] Total files processed: 28
+[2025-04-01 14:30:09] Successful renames: 21
+[2025-04-01 14:30:09] Errors: 5
+[2025-04-01 14:30:09] Skipped (no date found): 3
+[2025-04-01 14:30:09] WARNING: 1 file was overwritten during rename (data loss occurred)
+[2025-04-01 14:30:09]
+[2025-04-01 14:30:09] BUG SUMMARY (identified post-run):
+[2025-04-01 14:30:09] 1. Date parser: "Q1" incorrectly parsed as month=13, day=45
+[2025-04-01 14:30:09] 2. No check for existing date prefix -> double date on 2 files
+[2025-04-01 14:30:09] 3. Name extraction regex too aggressive -> stripped names on 3 files
+[2025-04-01 14:30:09] 4. Extension handling broken for files without date -> lost extensions on 3 files
+[2025-04-01 14:30:09] 5. No collision detection -> 1 file overwritten and lost forever
+[2025-04-01 14:30:09] 6. Date extracted from content reference in filename -> wrong date on 1 file

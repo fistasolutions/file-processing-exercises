@@ -1,0 +1,30 @@
+Meeting Notes - Jan 15, 2024
+Attendees: Dave, Alice, Bob
+
+- Discussed moving from SQLite to PostgreSQL for production
+- Dave will handle the migration script
+- Alice to review the auth module - potential security concern with token validation
+- Bob says marketing dashboard needs user count endpoint
+- ACTION: Dave to finish /api/process by end of February
+
+---
+
+Meeting Notes - Feb 28, 2024
+Attendees: Dave, Alice
+
+- /api/process still not done, Dave says 2 more weeks
+- Alice found issue with token validation - just comparing strings, no JWT
+- Need to add rate limiting before going to production
+- Dave mentioned he might be leaving in March
+- ACTION: Dave to document everything before he leaves
+
+---
+
+Meeting Notes - Mar 10, 2024
+Attendees: Alice, Bob
+
+- Dave left yesterday. No handoff document.
+- /api/process is still a stub
+- Alice will take over backend
+- Need someone to inventory what Dave left behind
+- Bob: "Can we at least get a list of what files are in the project?"

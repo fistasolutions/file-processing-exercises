@@ -1,0 +1,7 @@
+product_id,name,category,price,active
+P001,Basic Plan,subscription,99.00,true
+P002,Pro Plan,subscription,450.00,true
+P003,Enterprise Plan,subscription,2500.00,true
+P004,API Addon,addon,75.00,true
+P005,Storage Addon,addon,150.00,true
+P006,Legacy Plan,subscription,199.00,false

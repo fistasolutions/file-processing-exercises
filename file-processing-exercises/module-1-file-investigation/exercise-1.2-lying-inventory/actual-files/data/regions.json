@@ -1,0 +1,16 @@
+{
+  "regions": [
+    {
+      "code": "US-EAST",
+      "name": "US East Coast",
+      "timezone": "America/New_York"
+    },
+    {
+      "code": "US-WEST",
+      "name": "US West Coast",
+      "timezone": "America/Los_Angeles"
+    },
+    { "code": "EU-WEST", "name": "Europe West", "timezone": "Europe/London" },
+    { "code": "APAC", "name": "Asia Pacific", "timezone": "Asia/Tokyo" }
+  ]
+}

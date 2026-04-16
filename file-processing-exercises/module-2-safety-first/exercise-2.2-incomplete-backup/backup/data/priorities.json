@@ -1,0 +1,8 @@
+{
+  "levels": [
+    { "name": "critical", "color": "#DC2626", "sla_hours": 4 },
+    { "name": "high", "color": "#F59E0B", "sla_hours": 24 },
+    { "name": "medium", "color": "#3B82F6", "sla_hours": 72 },
+    { "name": "low", "color": "#6B7280", "sla_hours": 168 }
+  ]
+}

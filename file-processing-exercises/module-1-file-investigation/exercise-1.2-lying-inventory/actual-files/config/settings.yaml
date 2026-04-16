@@ -1,0 +1,20 @@
+app:
+  name: analytics-service
+  version: 2.1.0
+  environment: development
+
+database:
+  host: localhost
+  port: 5432
+  name: analytics_dev
+  pool_size: 10
+
+logging:
+  level: DEBUG
+  format: "%(asctime)s [%(levelname)s] %(name)s: %(message)s"
+  file: logs/app.log
+
+features:
+  enable_cache: true
+  enable_notifications: false
+  max_export_rows: 10000

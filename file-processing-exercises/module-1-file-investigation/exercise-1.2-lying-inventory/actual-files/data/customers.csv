@@ -1,0 +1,9 @@
+id,name,email,plan,signup_date,monthly_spend
+C001,Acme Corp,contact@acme.com,enterprise,2023-06-15,2500.00
+C002,TechStart Inc,hello@techstart.io,pro,2023-08-20,450.00
+C003,Green Valley LLC,admin@greenvalley.com,basic,2023-09-01,99.00
+C004,Blue Ocean Ltd,support@blueocean.co,pro,2023-11-10,450.00
+C005,Red Mountain Co,info@redmountain.com,enterprise,2024-01-05,3200.00
+C006,Silver Stream Inc,team@silverstream.io,basic,2024-02-14,99.00
+C007,Golden Gate LLC,ops@goldengate.com,pro,2024-03-01,450.00
+C008,Iron Bridge Corp,admin@ironbridge.co,enterprise,2024-03-15,2800.00

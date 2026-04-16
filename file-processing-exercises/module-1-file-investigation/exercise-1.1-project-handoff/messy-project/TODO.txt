@@ -1,0 +1,31 @@
+TODO - Dave's notes (last updated: March 2024)
+
+HIGH PRIORITY:
+- [ ] Finish /api/process endpoint (been saying this for 2 months)
+- [ ] Fix token validation - just string comparison right now, need real JWT
+- [ ] Add rate limiting before production
+- [ ] PostgreSQL migration - still on SQLite
+
+MEDIUM:
+- [ ] Write proper tests for auth module
+- [ ] Set up CI/CD pipeline
+- [ ] Add logging to all endpoints
+- [ ] Clean up old data files in archive/
+
+LOW:
+- [ ] Update Docker image to use multi-stage build
+- [ ] Add Swagger/OpenAPI docs
+- [ ] Set up monitoring (Prometheus/Grafana)
+- [ ] Remove temp_backup.py and old_version_app.py.bak
+
+DONE:
+- [x] Basic Flask app setup
+- [x] User CRUD endpoints
+- [x] Docker setup
+- [x] Redis connection
+
+NOTE TO WHOEVER TAKES THIS OVER:
+Sorry about the mess. The config/dev.env has the local dev credentials.
+The nginx.conf is from our staging server, might need updating.
+There's a backup of the old app.py in the root - old_version_app.py.bak
+I was experimenting with something in temp_backup.py, might be useful?

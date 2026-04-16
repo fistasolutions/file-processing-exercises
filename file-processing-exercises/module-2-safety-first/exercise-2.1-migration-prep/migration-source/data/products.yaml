@@ -1,0 +1,21 @@
+products:
+  - id: P001
+    name: Basic Plan
+    price: 99.00
+    features: [dashboard, 5_users, email_support]
+  - id: P002
+    name: Pro Plan
+    price: 450.00
+    features: [dashboard, 25_users, priority_support, api_access]
+  - id: P003
+    name: Enterprise Plan
+    price: 2500.00
+    features: [dashboard, unlimited_users, dedicated_support, api_access, custom_reports]
+  - id: P004
+    name: API Addon
+    price: 75.00
+    features: [api_access, 10000_calls_month]
+  - id: P005
+    name: Storage Addon
+    price: 150.00
+    features: [50gb_storage, cdn_access]

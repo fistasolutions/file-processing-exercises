@@ -1,0 +1,23 @@
+This file shows the commit history of the broken project.
+Students should study these to understand what BAD commit messages look like.
+
+Simulated `git log --oneline` output:
+=========================================
+
+a3f8c21  done
+b7e2d14  wip
+c91a4b6  update
+d5f3e78  asdf
+e2c9a01  stuff
+f8d1b34  fix
+
+=========================================
+
+Notes:
+- Every single commit message is meaningless
+- Impossible to tell what changed or why
+- If something broke, you'd have no idea which commit to revert
+- Compare with GOOD commit messages like:
+    "Add inventory backup before destructive operations"
+    "Fix currency formatting for values over $1000"
+    "Remove hardcoded file path, use config instead"

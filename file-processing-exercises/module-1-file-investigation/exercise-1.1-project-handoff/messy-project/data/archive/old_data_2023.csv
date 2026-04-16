@@ -1,0 +1,6 @@
+id,name,email,department,start_date,salary,status
+1,Alice Chen,alice@example.com,Engineering,2023-01-15,85000,active
+2,Bob Martinez,bob@example.com,Marketing,2023-03-20,68000,active
+3,Carol Williams,carol@example.com,Engineering,2023-06-01,82000,active
+4,Dave Johnson,dave@example.com,Sales,2022-11-10,63000,active
+7,Grace Lee,grace@example.com,Engineering,2022-07-20,100000,active

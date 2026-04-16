@@ -1,0 +1,9 @@
+Quick notes - meeting with client on 2024-03-20
+
+- Client wants monthly reports by the 5th of each month
+- Export format: CSV for transactions, PDF for summary
+- Need to add region filtering - see data/regions.json
+- Consider adding webhook notifications for large transactions (>$1000)
+- Schedule follow-up for next quarter
+
+TODO: update the API to support region parameter

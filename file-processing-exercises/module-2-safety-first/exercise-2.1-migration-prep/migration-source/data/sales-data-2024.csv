@@ -1,0 +1,552 @@
+txn_id,date,amount,customer,product,region,status,payment_method,notes
+TXN-2024-0001,2024-07-04,417.35,Acme Corp,Basic Plan,US-WEST,completed,credit_card,
+TXN-2024-0002,2024-06-04,478.66,Blue Ocean Ltd,Pro Plan,APAC,refunded,credit_card,Annual renewal
+TXN-2024-0003,2024-05-14,3473.25,TechStart Inc,Pro Plan,EU-WEST,pending,credit_card,
+TXN-2024-0004,2024-02-22,2611.38,Sunset Labs,API Addon,US-WEST,completed,credit_card,New customer
+TXN-2024-0005,2024-03-19,2553.16,Blue Ocean Ltd,Storage Addon,EU-WEST,pending,credit_card,Upgrade from basic
+TXN-2024-0006,2024-07-07,104.73,Silver Stream Inc,API Addon,APAC,completed,credit_card,Monthly subscription
+TXN-2024-0007,2024-12-22,93.49,Acme Corp,API Addon,US-WEST,completed,credit_card,New customer
+TXN-2024-0008,2024-09-04,136.37,TechStart Inc,Basic Plan,APAC,pending,paypal,Referral discount applied
+TXN-2024-0009,2024-06-21,145.10,Silver Stream Inc,Pro Plan,EU-WEST,completed,paypal,Annual renewal
+TXN-2024-0010,2024-07-04,100.29,Green Valley LLC,Enterprise Plan,US-WEST,completed,paypal,
+TXN-2024-0011,2024-04-07,89.79,Green Valley LLC,Pro Plan,US-EAST,refunded,credit_card,Referral discount applied
+TXN-2024-0012,2024-09-26,3318.87,Silver Stream Inc,Storage Addon,US-EAST,refunded,credit_card,
+TXN-2024-0013,2024-03-26,489.63,Red Mountain Co,Basic Plan,US-EAST,completed,credit_card,New customer
+TXN-2024-0014,2024-08-16,3492.09,Green Valley LLC,Enterprise Plan,US-EAST,completed,credit_card,Referral discount applied
+TXN-2024-0015,2024-05-01,76.11,Silver Stream Inc,API Addon,EU-WEST,completed,bank_transfer,Monthly subscription
+TXN-2024-0016,2024-09-03,422.84,Northern Wind Co,Storage Addon,APAC,completed,bank_transfer,Upgrade from basic
+TXN-2024-0017,2024-09-28,2372.94,Silver Stream Inc,Basic Plan,EU-WEST,completed,credit_card,
+TXN-2024-0018,2024-04-05,144.63,Blue Ocean Ltd,Enterprise Plan,US-EAST,refunded,paypal,
+TXN-2024-0019,2024-02-22,81.40,Silver Stream Inc,Basic Plan,US-WEST,completed,paypal,Annual renewal
+TXN-2024-0020,2024-11-21,179.24,Green Valley LLC,Storage Addon,US-WEST,completed,credit_card,Annual renewal
+TXN-2024-0021,2024-05-13,75.22,Blue Ocean Ltd,Basic Plan,US-WEST,completed,bank_transfer,Monthly subscription
+TXN-2024-0022,2024-11-11,100.35,Golden Gate LLC,Pro Plan,US-EAST,completed,credit_card,Referral discount applied
+TXN-2024-0023,2024-08-12,3072.12,Green Valley LLC,API Addon,US-EAST,pending,bank_transfer,Referral discount applied
+TXN-2024-0024,2024-06-17,408.00,Red Mountain Co,Basic Plan,APAC,completed,credit_card,
+TXN-2024-0025,2024-09-07,153.50,Red Mountain Co,Storage Addon,APAC,completed,credit_card,New customer
+TXN-2024-0026,2024-04-06,464.54,Golden Gate LLC,Basic Plan,APAC,completed,credit_card,Upgrade from basic
+TXN-2024-0027,2024-07-07,206.96,Red Mountain Co,Pro Plan,US-EAST,completed,credit_card,Referral discount applied
+TXN-2024-0028,2024-06-09,207.59,Blue Ocean Ltd,Pro Plan,EU-WEST,completed,paypal,New customer
+TXN-2024-0029,2024-01-15,463.21,Acme Corp,Storage Addon,US-WEST,completed,paypal,Monthly subscription
+TXN-2024-0030,2024-09-16,2903.47,Sunset Labs,Pro Plan,APAC,completed,credit_card,Referral discount applied
+TXN-2024-0031,2024-04-08,2283.22,Red Mountain Co,Pro Plan,APAC,completed,credit_card,Upgrade from basic
+TXN-2024-0032,2024-10-06,212.08,Red Mountain Co,Storage Addon,EU-WEST,pending,credit_card,Annual renewal
+TXN-2024-0033,2024-07-28,2291.19,Acme Corp,Enterprise Plan,APAC,completed,credit_card,
+TXN-2024-0034,2024-10-28,187.81,Iron Bridge Corp,Pro Plan,US-EAST,completed,paypal,
+TXN-2024-0035,2024-05-21,197.90,TechStart Inc,Basic Plan,EU-WEST,pending,paypal,Upgrade from basic
+TXN-2024-0036,2024-04-11,69.35,Red Mountain Co,API Addon,US-WEST,completed,paypal,Monthly subscription
+TXN-2024-0037,2024-04-02,70.43,Sunset Labs,Storage Addon,EU-WEST,refunded,paypal,Upgrade from basic
+TXN-2024-0038,2024-11-27,440.89,Iron Bridge Corp,Storage Addon,US-WEST,completed,bank_transfer,
+TXN-2024-0039,2024-10-03,92.67,Acme Corp,Storage Addon,EU-WEST,completed,credit_card,Annual renewal
+TXN-2024-0040,2024-06-25,105.73,TechStart Inc,Pro Plan,EU-WEST,completed,paypal,
+TXN-2024-0041,2024-11-03,96.12,Acme Corp,Basic Plan,US-WEST,completed,credit_card,Annual renewal
+TXN-2024-0042,2024-08-18,145.76,Green Valley LLC,API Addon,EU-WEST,completed,bank_transfer,
+TXN-2024-0043,2024-07-15,79.47,Iron Bridge Corp,Pro Plan,US-EAST,pending,credit_card,
+TXN-2024-0044,2024-11-13,104.80,Northern Wind Co,Storage Addon,US-WEST,pending,paypal,Monthly subscription
+TXN-2024-0045,2024-04-18,189.11,Green Valley LLC,API Addon,EU-WEST,completed,bank_transfer,Referral discount applied
+TXN-2024-0046,2024-01-14,441.53,Green Valley LLC,Basic Plan,US-WEST,completed,credit_card,
+TXN-2024-0047,2024-08-23,2280.93,Northern Wind Co,Enterprise Plan,US-EAST,refunded,credit_card,Annual renewal
+TXN-2024-0048,2024-12-25,485.02,Sunset Labs,Storage Addon,APAC,pending,credit_card,
+TXN-2024-0049,2024-09-10,2457.45,Blue Ocean Ltd,API Addon,EU-WEST,completed,credit_card,Monthly subscription
+TXN-2024-0050,2024-01-13,455.90,Iron Bridge Corp,Basic Plan,EU-WEST,completed,paypal,Referral discount applied
+TXN-2024-0051,2024-04-22,2365.63,Acme Corp,Storage Addon,US-EAST,refunded,credit_card,
+TXN-2024-0052,2024-01-23,2434.33,Iron Bridge Corp,Basic Plan,US-WEST,pending,credit_card,Annual renewal
+TXN-2024-0053,2024-03-28,102.20,Blue Ocean Ltd,Enterprise Plan,US-EAST,refunded,credit_card,
+TXN-2024-0054,2024-09-24,104.91,Blue Ocean Ltd,Basic Plan,EU-WEST,refunded,credit_card,New customer
+TXN-2024-0055,2024-12-06,2575.57,Blue Ocean Ltd,Pro Plan,EU-WEST,completed,credit_card,
+TXN-2024-0056,2024-01-15,108.29,Acme Corp,Pro Plan,US-EAST,completed,paypal,
+TXN-2024-0057,2024-08-16,490.38,Acme Corp,API Addon,EU-WEST,refunded,paypal,New customer
+TXN-2024-0058,2024-02-11,153.72,TechStart Inc,Storage Addon,US-WEST,completed,credit_card,Annual renewal
+TXN-2024-0059,2024-06-13,77.20,Northern Wind Co,API Addon,US-WEST,pending,bank_transfer,Monthly subscription
+TXN-2024-0060,2024-11-24,163.69,Blue Ocean Ltd,Storage Addon,APAC,completed,bank_transfer,Annual renewal
+TXN-2024-0061,2024-10-14,101.36,Iron Bridge Corp,Basic Plan,US-WEST,refunded,bank_transfer,Annual renewal
+TXN-2024-0062,2024-01-04,93.38,Acme Corp,Storage Addon,EU-WEST,completed,bank_transfer,
+TXN-2024-0063,2024-06-25,2701.25,Green Valley LLC,API Addon,EU-WEST,refunded,credit_card,
+TXN-2024-0064,2024-05-28,2267.85,Silver Stream Inc,Storage Addon,APAC,completed,paypal,Monthly subscription
+TXN-2024-0065,2024-01-16,211.57,Green Valley LLC,Storage Addon,APAC,completed,bank_transfer,Monthly subscription
+TXN-2024-0066,2024-03-27,210.83,Blue Ocean Ltd,Pro Plan,US-WEST,pending,bank_transfer,
+TXN-2024-0067,2024-06-23,489.80,Blue Ocean Ltd,Storage Addon,US-WEST,refunded,bank_transfer,Upgrade from basic
+TXN-2024-0068,2024-09-11,102.36,Northern Wind Co,API Addon,US-EAST,completed,credit_card,
+TXN-2024-0069,2024-05-15,494.55,Northern Wind Co,Basic Plan,US-WEST,completed,bank_transfer,Referral discount applied
+TXN-2024-0070,2024-11-09,181.15,Sunset Labs,Storage Addon,US-EAST,completed,credit_card,
+TXN-2024-0071,2024-11-10,2435.65,Blue Ocean Ltd,Storage Addon,EU-WEST,completed,credit_card,
+TXN-2024-0072,2024-05-07,469.75,Northern Wind Co,Enterprise Plan,EU-WEST,completed,credit_card,New customer
+TXN-2024-0073,2024-01-13,483.06,TechStart Inc,API Addon,APAC,completed,credit_card,Monthly subscription
+TXN-2024-0074,2024-04-03,93.56,Blue Ocean Ltd,Enterprise Plan,APAC,pending,credit_card,
+TXN-2024-0075,2024-03-06,94.84,Green Valley LLC,Enterprise Plan,APAC,completed,credit_card,
+TXN-2024-0076,2024-12-02,92.53,Red Mountain Co,Pro Plan,EU-WEST,completed,credit_card,Referral discount applied
+TXN-2024-0077,2024-11-02,469.68,Northern Wind Co,Basic Plan,US-EAST,completed,credit_card,Upgrade from basic
+TXN-2024-0078,2024-12-14,2563.23,Sunset Labs,Storage Addon,US-WEST,completed,credit_card,
+TXN-2024-0079,2024-06-22,3241.35,Red Mountain Co,Enterprise Plan,APAC,completed,paypal,
+TXN-2024-0080,2024-09-06,2646.88,Red Mountain Co,Storage Addon,APAC,completed,credit_card,Monthly subscription
+TXN-2024-0081,2024-01-19,67.58,Acme Corp,API Addon,US-EAST,completed,bank_transfer,Upgrade from basic
+TXN-2024-0082,2024-12-10,69.02,Golden Gate LLC,Pro Plan,US-EAST,pending,paypal,Referral discount applied
+TXN-2024-0083,2024-06-23,2508.39,Northern Wind Co,Pro Plan,US-WEST,completed,credit_card,Upgrade from basic
+TXN-2024-0084,2024-01-16,2427.30,Silver Stream Inc,API Addon,APAC,pending,credit_card,Referral discount applied
+TXN-2024-0085,2024-10-28,2538.42,Silver Stream Inc,Storage Addon,US-WEST,completed,credit_card,
+TXN-2024-0086,2024-12-21,103.28,Golden Gate LLC,Storage Addon,EU-WEST,refunded,bank_transfer,
+TXN-2024-0087,2024-12-11,456.87,Golden Gate LLC,Basic Plan,APAC,completed,paypal,Monthly subscription
+TXN-2024-0088,2024-03-26,2647.42,Red Mountain Co,Enterprise Plan,EU-WEST,completed,credit_card,Upgrade from basic
+TXN-2024-0089,2024-08-17,98.25,Red Mountain Co,Basic Plan,US-WEST,pending,credit_card,
+TXN-2024-0090,2024-11-15,203.67,Red Mountain Co,Basic Plan,US-WEST,completed,credit_card,
+TXN-2024-0091,2024-10-20,153.26,Silver Stream Inc,API Addon,US-EAST,pending,paypal,
+TXN-2024-0092,2024-09-13,182.00,TechStart Inc,Enterprise Plan,US-WEST,completed,credit_card,Referral discount applied
+TXN-2024-0093,2024-02-03,99.07,Silver Stream Inc,Basic Plan,US-EAST,pending,credit_card,
+TXN-2024-0094,2024-10-28,433.56,Acme Corp,API Addon,US-EAST,refunded,credit_card,Referral discount applied
+TXN-2024-0095,2024-09-19,104.13,Silver Stream Inc,Pro Plan,US-WEST,pending,credit_card,Monthly subscription
+TXN-2024-0096,2024-02-10,475.47,Silver Stream Inc,API Addon,US-WEST,refunded,credit_card,Referral discount applied
+TXN-2024-0097,2024-03-16,2571.58,Silver Stream Inc,Storage Addon,US-EAST,completed,paypal,
+TXN-2024-0098,2024-09-26,3121.89,Golden Gate LLC,Pro Plan,EU-WEST,completed,credit_card,
+TXN-2024-0099,2024-04-04,2424.41,Blue Ocean Ltd,Pro Plan,APAC,pending,credit_card,New customer
+TXN-2024-0100,2024-03-16,81.57,Acme Corp,Storage Addon,APAC,completed,paypal,Annual renewal
+TXN-2024-0101,2024-06-13,3330.92,Sunset Labs,Basic Plan,US-WEST,completed,credit_card,
+TXN-2024-0102,2024-07-19,100.26,TechStart Inc,Basic Plan,EU-WEST,pending,credit_card,
+TXN-2024-0103,2024-09-17,3488.74,Golden Gate LLC,Pro Plan,APAC,completed,credit_card,Upgrade from basic
+TXN-2024-0104,2024-09-10,3060.65,Northern Wind Co,Pro Plan,US-WEST,pending,credit_card,Monthly subscription
+TXN-2024-0105,2024-12-16,187.41,Iron Bridge Corp,API Addon,US-EAST,completed,bank_transfer,Referral discount applied
+TXN-2024-0106,2024-10-06,2977.64,Northern Wind Co,Basic Plan,APAC,refunded,paypal,New customer
+TXN-2024-0107,2024-06-23,2360.84,Golden Gate LLC,Basic Plan,EU-WEST,refunded,credit_card,Referral discount applied
+TXN-2024-0108,2024-09-22,3500.41,Acme Corp,Storage Addon,US-WEST,completed,credit_card,Annual renewal
+TXN-2024-0109,2024-03-26,483.03,Blue Ocean Ltd,Basic Plan,EU-WEST,completed,credit_card,New customer
+TXN-2024-0110,2024-02-15,2300.22,Golden Gate LLC,API Addon,APAC,pending,credit_card,
+TXN-2024-0111,2024-11-07,78.03,Acme Corp,Basic Plan,EU-WEST,pending,credit_card,Upgrade from basic
+TXN-2024-0112,2024-11-07,2669.97,Golden Gate LLC,Pro Plan,US-WEST,completed,paypal,New customer
+TXN-2024-0113,2024-11-15,89.69,Red Mountain Co,Enterprise Plan,US-EAST,refunded,credit_card,Annual renewal
+TXN-2024-0114,2024-05-23,201.36,Sunset Labs,Basic Plan,US-WEST,pending,bank_transfer,
+TXN-2024-0115,2024-11-16,195.01,Blue Ocean Ltd,API Addon,US-WEST,completed,credit_card,
+TXN-2024-0116,2024-12-20,82.43,Sunset Labs,Basic Plan,APAC,completed,paypal,New customer
+TXN-2024-0117,2024-11-24,2290.33,Golden Gate LLC,API Addon,EU-WEST,completed,credit_card,Upgrade from basic
+TXN-2024-0118,2024-06-14,2472.33,Acme Corp,Storage Addon,APAC,completed,bank_transfer,
+TXN-2024-0119,2024-06-12,81.53,Silver Stream Inc,Pro Plan,US-WEST,refunded,credit_card,New customer
+TXN-2024-0120,2024-05-27,2309.12,Northern Wind Co,Enterprise Plan,US-EAST,completed,credit_card,Monthly subscription
+TXN-2024-0121,2024-09-02,108.25,Acme Corp,API Addon,EU-WEST,completed,credit_card,New customer
+TXN-2024-0122,2024-01-01,2381.26,Northern Wind Co,Pro Plan,US-EAST,completed,paypal,
+TXN-2024-0123,2024-05-01,192.07,TechStart Inc,Storage Addon,US-EAST,completed,credit_card,Referral discount applied
+TXN-2024-0124,2024-08-10,98.23,Golden Gate LLC,Pro Plan,APAC,completed,paypal,Annual renewal
+TXN-2024-0125,2024-07-05,481.81,Northern Wind Co,API Addon,US-EAST,refunded,paypal,
+TXN-2024-0126,2024-04-28,2718.63,Red Mountain Co,API Addon,EU-WEST,completed,credit_card,New customer
+TXN-2024-0127,2024-08-04,203.73,TechStart Inc,Pro Plan,US-WEST,completed,paypal,
+TXN-2024-0128,2024-09-18,2392.57,Sunset Labs,API Addon,US-WEST,refunded,paypal,
+TXN-2024-0129,2024-11-15,428.83,Silver Stream Inc,Storage Addon,US-EAST,refunded,bank_transfer,
+TXN-2024-0130,2024-06-03,96.95,Golden Gate LLC,Pro Plan,US-WEST,completed,credit_card,Monthly subscription
+TXN-2024-0131,2024-03-15,101.39,Northern Wind Co,Storage Addon,US-WEST,completed,paypal,
+TXN-2024-0132,2024-11-15,463.38,Golden Gate LLC,Enterprise Plan,US-EAST,completed,credit_card,
+TXN-2024-0133,2024-01-27,448.64,Blue Ocean Ltd,Basic Plan,US-WEST,completed,credit_card,Upgrade from basic
+TXN-2024-0134,2024-06-05,2512.32,Red Mountain Co,Pro Plan,EU-WEST,completed,bank_transfer,New customer
+TXN-2024-0135,2024-12-02,427.22,Blue Ocean Ltd,Enterprise Plan,US-EAST,completed,credit_card,Annual renewal
+TXN-2024-0136,2024-12-18,143.38,TechStart Inc,Basic Plan,APAC,refunded,credit_card,Upgrade from basic
+TXN-2024-0137,2024-09-10,97.72,Golden Gate LLC,Basic Plan,US-EAST,pending,credit_card,Upgrade from basic
+TXN-2024-0138,2024-09-15,3456.23,Green Valley LLC,Storage Addon,US-EAST,pending,credit_card,
+TXN-2024-0139,2024-06-06,208.32,Golden Gate LLC,Enterprise Plan,US-WEST,completed,credit_card,New customer
+TXN-2024-0140,2024-10-21,74.19,Acme Corp,Storage Addon,APAC,completed,bank_transfer,New customer
+TXN-2024-0141,2024-01-23,2981.84,Golden Gate LLC,Storage Addon,US-WEST,completed,credit_card,New customer
+TXN-2024-0142,2024-06-10,458.88,Sunset Labs,API Addon,US-EAST,completed,credit_card,New customer
+TXN-2024-0143,2024-06-06,139.47,Blue Ocean Ltd,Storage Addon,APAC,refunded,credit_card,Upgrade from basic
+TXN-2024-0144,2024-03-20,105.07,Silver Stream Inc,Storage Addon,EU-WEST,pending,credit_card,Monthly subscription
+TXN-2024-0145,2024-08-28,2986.93,Golden Gate LLC,Enterprise Plan,APAC,pending,paypal,Upgrade from basic
+TXN-2024-0146,2024-03-03,3008.57,Red Mountain Co,Storage Addon,US-WEST,completed,credit_card,
+TXN-2024-0147,2024-05-05,74.23,TechStart Inc,Pro Plan,US-WEST,completed,paypal,
+TXN-2024-0148,2024-03-17,99.74,Sunset Labs,Pro Plan,US-WEST,refunded,credit_card,Upgrade from basic
+TXN-2024-0149,2024-04-17,3197.76,Northern Wind Co,Basic Plan,US-EAST,completed,credit_card,
+TXN-2024-0150,2024-01-22,188.87,Red Mountain Co,Enterprise Plan,APAC,completed,credit_card,
+TXN-2024-0151,2024-01-28,95.16,Silver Stream Inc,Enterprise Plan,US-WEST,completed,credit_card,
+TXN-2024-0152,2024-06-25,90.40,Northern Wind Co,Storage Addon,US-WEST,completed,credit_card,Monthly subscription
+TXN-2024-0153,2024-11-01,3294.45,Iron Bridge Corp,Pro Plan,APAC,pending,credit_card,New customer
+TXN-2024-0154,2024-05-23,2908.61,TechStart Inc,Basic Plan,EU-WEST,completed,credit_card,Referral discount applied
+TXN-2024-0155,2024-03-12,2736.54,Silver Stream Inc,Storage Addon,EU-WEST,pending,credit_card,
+TXN-2024-0156,2024-06-13,210.19,Acme Corp,Basic Plan,US-WEST,refunded,paypal,Upgrade from basic
+TXN-2024-0157,2024-05-16,98.84,Silver Stream Inc,API Addon,US-WEST,completed,credit_card,
+TXN-2024-0158,2024-11-05,406.03,Acme Corp,API Addon,EU-WEST,completed,paypal,Upgrade from basic
+TXN-2024-0159,2024-01-14,158.56,Acme Corp,API Addon,US-EAST,completed,credit_card,Upgrade from basic
+TXN-2024-0160,2024-03-27,89.16,Silver Stream Inc,Pro Plan,EU-WEST,completed,paypal,
+TXN-2024-0161,2024-03-07,108.13,Northern Wind Co,Basic Plan,US-WEST,completed,credit_card,Monthly subscription
+TXN-2024-0162,2024-01-22,2303.98,TechStart Inc,Pro Plan,EU-WEST,refunded,credit_card,
+TXN-2024-0163,2024-12-06,82.11,Acme Corp,Basic Plan,US-WEST,completed,credit_card,New customer
+TXN-2024-0164,2024-01-04,138.86,Iron Bridge Corp,Pro Plan,APAC,completed,paypal,Monthly subscription
+TXN-2024-0165,2024-06-26,413.08,Silver Stream Inc,Basic Plan,US-EAST,refunded,paypal,Annual renewal
+TXN-2024-0166,2024-05-05,2256.81,Golden Gate LLC,Storage Addon,APAC,refunded,credit_card,Referral discount applied
+TXN-2024-0167,2024-06-06,433.96,Iron Bridge Corp,API Addon,US-WEST,refunded,credit_card,New customer
+TXN-2024-0168,2024-08-17,96.19,Silver Stream Inc,Pro Plan,APAC,completed,credit_card,Monthly subscription
+TXN-2024-0169,2024-05-14,161.59,Red Mountain Co,Storage Addon,US-EAST,completed,credit_card,Annual renewal
+TXN-2024-0170,2024-01-10,460.49,Iron Bridge Corp,Storage Addon,US-WEST,completed,credit_card,Monthly subscription
+TXN-2024-0171,2024-05-14,108.81,Iron Bridge Corp,Pro Plan,APAC,completed,credit_card,
+TXN-2024-0172,2024-07-01,67.71,Red Mountain Co,Pro Plan,US-EAST,pending,credit_card,Upgrade from basic
+TXN-2024-0173,2024-10-22,484.03,TechStart Inc,Pro Plan,US-WEST,completed,bank_transfer,Upgrade from basic
+TXN-2024-0174,2024-02-17,105.59,TechStart Inc,Enterprise Plan,APAC,completed,credit_card,
+TXN-2024-0175,2024-08-27,102.76,Golden Gate LLC,API Addon,US-EAST,completed,credit_card,Referral discount applied
+TXN-2024-0176,2024-01-06,488.39,Green Valley LLC,Pro Plan,US-EAST,refunded,credit_card,Upgrade from basic
+TXN-2024-0177,2024-06-28,218.22,Golden Gate LLC,Enterprise Plan,US-WEST,completed,bank_transfer,Annual renewal
+TXN-2024-0178,2024-03-03,70.85,Blue Ocean Ltd,Pro Plan,APAC,refunded,bank_transfer,Upgrade from basic
+TXN-2024-0179,2024-04-17,100.88,Green Valley LLC,Enterprise Plan,APAC,completed,credit_card,
+TXN-2024-0180,2024-09-14,73.06,Acme Corp,API Addon,EU-WEST,pending,credit_card,Annual renewal
+TXN-2024-0181,2024-07-19,181.55,TechStart Inc,API Addon,US-WEST,completed,credit_card,New customer
+TXN-2024-0182,2024-05-24,484.40,Green Valley LLC,Storage Addon,US-WEST,refunded,credit_card,
+TXN-2024-0183,2024-01-22,493.53,Acme Corp,Enterprise Plan,US-WEST,completed,paypal,Upgrade from basic
+TXN-2024-0184,2024-12-23,75.20,Blue Ocean Ltd,Basic Plan,US-EAST,refunded,bank_transfer,Referral discount applied
+TXN-2024-0185,2024-06-15,189.35,Green Valley LLC,Enterprise Plan,US-WEST,completed,bank_transfer,
+TXN-2024-0186,2024-06-22,465.66,Sunset Labs,Storage Addon,US-WEST,completed,credit_card,Monthly subscription
+TXN-2024-0187,2024-07-17,69.98,Red Mountain Co,Basic Plan,APAC,pending,credit_card,Referral discount applied
+TXN-2024-0188,2024-05-05,2280.53,Green Valley LLC,Basic Plan,EU-WEST,pending,paypal,
+TXN-2024-0189,2024-07-28,2516.22,Silver Stream Inc,Basic Plan,US-WEST,refunded,bank_transfer,
+TXN-2024-0190,2024-08-03,437.80,TechStart Inc,Pro Plan,APAC,completed,credit_card,
+TXN-2024-0191,2024-02-09,2400.40,Northern Wind Co,Storage Addon,US-EAST,pending,bank_transfer,Annual renewal
+TXN-2024-0192,2024-05-06,429.93,Silver Stream Inc,Storage Addon,US-EAST,completed,paypal,
+TXN-2024-0193,2024-02-03,406.50,Golden Gate LLC,API Addon,US-EAST,completed,credit_card,
+TXN-2024-0194,2024-07-03,3000.17,Green Valley LLC,Pro Plan,US-WEST,completed,credit_card,Upgrade from basic
+TXN-2024-0195,2024-12-23,451.23,Blue Ocean Ltd,Enterprise Plan,APAC,completed,credit_card,Monthly subscription
+TXN-2024-0196,2024-04-20,209.31,Sunset Labs,API Addon,APAC,refunded,bank_transfer,
+TXN-2024-0197,2024-04-02,99.77,Acme Corp,Basic Plan,US-WEST,completed,credit_card,Upgrade from basic
+TXN-2024-0198,2024-03-17,2533.55,Green Valley LLC,Basic Plan,US-EAST,completed,paypal,
+TXN-2024-0199,2024-05-21,2631.90,Green Valley LLC,Storage Addon,APAC,pending,paypal,Referral discount applied
+TXN-2024-0200,2024-06-23,81.95,Golden Gate LLC,Pro Plan,EU-WEST,refunded,bank_transfer,
+TXN-2024-0201,2024-04-09,101.58,Sunset Labs,Enterprise Plan,EU-WEST,refunded,credit_card,
+TXN-2024-0202,2024-08-09,2748.09,Silver Stream Inc,Storage Addon,US-WEST,completed,credit_card,Monthly subscription
+TXN-2024-0203,2024-10-10,99.96,Golden Gate LLC,Basic Plan,EU-WEST,pending,bank_transfer,
+TXN-2024-0204,2024-08-16,89.19,Sunset Labs,Enterprise Plan,APAC,refunded,paypal,
+TXN-2024-0205,2024-09-06,90.01,Golden Gate LLC,Pro Plan,EU-WEST,completed,paypal,Referral discount applied
+TXN-2024-0206,2024-08-24,428.94,Silver Stream Inc,Enterprise Plan,US-EAST,pending,credit_card,Referral discount applied
+TXN-2024-0207,2024-05-16,2605.88,TechStart Inc,Pro Plan,US-WEST,completed,credit_card,Monthly subscription
+TXN-2024-0208,2024-04-01,2641.68,Green Valley LLC,API Addon,US-WEST,completed,credit_card,
+TXN-2024-0209,2024-10-08,194.49,Red Mountain Co,Storage Addon,EU-WEST,refunded,paypal,
+TXN-2024-0210,2024-11-24,428.59,Iron Bridge Corp,Storage Addon,EU-WEST,completed,credit_card,
+TXN-2024-0211,2024-02-05,218.66,Iron Bridge Corp,Storage Addon,APAC,completed,paypal,Monthly subscription
+TXN-2024-0212,2024-08-21,67.59,Iron Bridge Corp,Enterprise Plan,APAC,completed,credit_card,
+TXN-2024-0213,2024-07-10,485.59,Silver Stream Inc,Basic Plan,EU-WEST,completed,credit_card,
+TXN-2024-0214,2024-11-13,2977.88,Red Mountain Co,API Addon,US-EAST,pending,bank_transfer,Annual renewal
+TXN-2024-0215,2024-06-21,429.94,TechStart Inc,Basic Plan,US-EAST,pending,credit_card,Upgrade from basic
+TXN-2024-0216,2024-12-15,2373.42,Red Mountain Co,Pro Plan,APAC,refunded,credit_card,Annual renewal
+TXN-2024-0217,2024-05-02,3155.91,Acme Corp,Basic Plan,US-WEST,completed,credit_card,
+TXN-2024-0218,2024-08-26,2453.07,Blue Ocean Ltd,Storage Addon,US-WEST,refunded,bank_transfer,
+TXN-2024-0219,2024-09-08,493.66,Iron Bridge Corp,Basic Plan,US-EAST,pending,credit_card,Annual renewal
+TXN-2024-0220,2024-02-19,186.91,TechStart Inc,Pro Plan,US-WEST,completed,bank_transfer,
+TXN-2024-0221,2024-11-04,191.60,Iron Bridge Corp,Storage Addon,EU-WEST,completed,credit_card,Annual renewal
+TXN-2024-0222,2024-04-08,188.49,Sunset Labs,Enterprise Plan,US-WEST,completed,credit_card,Upgrade from basic
+TXN-2024-0223,2024-08-08,3350.69,Acme Corp,Enterprise Plan,US-WEST,completed,credit_card,Monthly subscription
+TXN-2024-0224,2024-08-27,150.31,TechStart Inc,Storage Addon,US-WEST,pending,bank_transfer,New customer
+TXN-2024-0225,2024-09-02,211.13,Silver Stream Inc,API Addon,APAC,completed,credit_card,Annual renewal
+TXN-2024-0226,2024-05-05,196.47,Silver Stream Inc,Pro Plan,US-EAST,completed,credit_card,
+TXN-2024-0227,2024-08-05,97.27,Iron Bridge Corp,API Addon,US-WEST,pending,credit_card,
+TXN-2024-0228,2024-08-09,461.84,Sunset Labs,API Addon,EU-WEST,completed,credit_card,
+TXN-2024-0229,2024-07-18,103.61,Northern Wind Co,Pro Plan,EU-WEST,pending,paypal,Referral discount applied
+TXN-2024-0230,2024-02-19,406.62,Silver Stream Inc,Basic Plan,APAC,refunded,credit_card,
+TXN-2024-0231,2024-08-12,74.38,Red Mountain Co,API Addon,EU-WEST,completed,credit_card,Annual renewal
+TXN-2024-0232,2024-03-01,424.59,Northern Wind Co,Pro Plan,US-WEST,completed,credit_card,Annual renewal
+TXN-2024-0233,2024-03-28,469.98,Iron Bridge Corp,Enterprise Plan,US-EAST,completed,credit_card,
+TXN-2024-0234,2024-12-05,3007.34,Red Mountain Co,Storage Addon,APAC,refunded,credit_card,Monthly subscription
+TXN-2024-0235,2024-06-20,74.17,Northern Wind Co,Enterprise Plan,US-WEST,pending,credit_card,Upgrade from basic
+TXN-2024-0236,2024-07-27,3022.31,Iron Bridge Corp,Enterprise Plan,APAC,completed,credit_card,Upgrade from basic
+TXN-2024-0237,2024-09-14,81.15,Red Mountain Co,Basic Plan,EU-WEST,completed,paypal,Annual renewal
+TXN-2024-0238,2024-05-24,218.66,Northern Wind Co,Pro Plan,EU-WEST,refunded,credit_card,Upgrade from basic
+TXN-2024-0239,2024-03-11,140.11,Silver Stream Inc,Enterprise Plan,EU-WEST,refunded,credit_card,Referral discount applied
+TXN-2024-0240,2024-09-21,160.74,Iron Bridge Corp,Pro Plan,EU-WEST,completed,credit_card,New customer
+TXN-2024-0241,2024-09-14,2452.43,Sunset Labs,Pro Plan,EU-WEST,pending,paypal,Annual renewal
+TXN-2024-0242,2024-12-24,155.33,Red Mountain Co,Pro Plan,APAC,refunded,credit_card,
+TXN-2024-0243,2024-07-19,80.12,Silver Stream Inc,API Addon,APAC,pending,paypal,Annual renewal
+TXN-2024-0244,2024-09-26,2634.40,Acme Corp,Storage Addon,US-WEST,pending,bank_transfer,Monthly subscription
+TXN-2024-0245,2024-03-15,447.27,Northern Wind Co,Pro Plan,US-WEST,completed,credit_card,Annual renewal
+TXN-2024-0246,2024-11-11,2279.96,Northern Wind Co,Enterprise Plan,EU-WEST,pending,credit_card,Upgrade from basic
+TXN-2024-0247,2024-09-24,431.60,TechStart Inc,Enterprise Plan,EU-WEST,refunded,bank_transfer,
+TXN-2024-0248,2024-01-17,151.67,Blue Ocean Ltd,Storage Addon,EU-WEST,refunded,credit_card,
+TXN-2024-0249,2024-05-15,77.29,Golden Gate LLC,Basic Plan,US-EAST,completed,paypal,Annual renewal
+TXN-2024-0250,2024-10-21,105.51,Golden Gate LLC,Basic Plan,US-EAST,pending,credit_card,Monthly subscription
+TXN-2024-0251,2024-03-16,92.49,Northern Wind Co,API Addon,US-WEST,completed,credit_card,
+TXN-2024-0252,2024-08-20,2269.40,Silver Stream Inc,Storage Addon,APAC,completed,credit_card,
+TXN-2024-0253,2024-04-02,2667.57,Northern Wind Co,API Addon,US-WEST,completed,credit_card,Referral discount applied
+TXN-2024-0254,2024-07-01,205.88,Silver Stream Inc,Storage Addon,EU-WEST,pending,credit_card,
+TXN-2024-0255,2024-05-13,185.80,Golden Gate LLC,Enterprise Plan,EU-WEST,completed,credit_card,New customer
+TXN-2024-0256,2024-09-14,2657.02,Sunset Labs,Pro Plan,EU-WEST,completed,paypal,Monthly subscription
+TXN-2024-0257,2024-10-22,78.14,Green Valley LLC,API Addon,US-WEST,completed,bank_transfer,Annual renewal
+TXN-2024-0258,2024-04-20,424.05,Red Mountain Co,Storage Addon,US-WEST,refunded,credit_card,Upgrade from basic
+TXN-2024-0259,2024-12-27,195.00,Northern Wind Co,Enterprise Plan,US-EAST,completed,bank_transfer,Monthly subscription
+TXN-2024-0260,2024-04-16,74.81,Iron Bridge Corp,Enterprise Plan,EU-WEST,refunded,bank_transfer,Annual renewal
+TXN-2024-0261,2024-10-14,93.11,Acme Corp,API Addon,EU-WEST,completed,credit_card,Annual renewal
+TXN-2024-0262,2024-06-15,479.83,Northern Wind Co,Enterprise Plan,US-WEST,completed,bank_transfer,Upgrade from basic
+TXN-2024-0263,2024-06-24,106.03,Sunset Labs,Pro Plan,US-WEST,refunded,credit_card,Monthly subscription
+TXN-2024-0264,2024-08-10,480.59,Green Valley LLC,Storage Addon,EU-WEST,pending,credit_card,Monthly subscription
+TXN-2024-0265,2024-12-15,73.43,Northern Wind Co,Pro Plan,EU-WEST,completed,credit_card,
+TXN-2024-0266,2024-03-14,483.33,Sunset Labs,Basic Plan,US-WEST,completed,paypal,Annual renewal
+TXN-2024-0267,2024-07-20,461.57,Blue Ocean Ltd,API Addon,EU-WEST,completed,bank_transfer,Monthly subscription
+TXN-2024-0268,2024-02-24,70.16,Red Mountain Co,Storage Addon,US-WEST,pending,credit_card,
+TXN-2024-0269,2024-02-25,107.74,Red Mountain Co,Pro Plan,EU-WEST,refunded,bank_transfer,Upgrade from basic
+TXN-2024-0270,2024-01-09,438.76,Silver Stream Inc,Storage Addon,US-WEST,refunded,paypal,Upgrade from basic
+TXN-2024-0271,2024-08-21,2430.73,Green Valley LLC,Storage Addon,US-WEST,completed,paypal,
+TXN-2024-0272,2024-01-28,2387.81,Red Mountain Co,Pro Plan,US-EAST,completed,paypal,
+TXN-2024-0273,2024-11-03,95.89,Silver Stream Inc,Enterprise Plan,US-WEST,completed,bank_transfer,Monthly subscription
+TXN-2024-0274,2024-06-15,3310.35,Iron Bridge Corp,API Addon,APAC,pending,credit_card,Referral discount applied
+TXN-2024-0275,2024-05-01,104.91,Silver Stream Inc,Enterprise Plan,APAC,completed,credit_card,New customer
+TXN-2024-0276,2024-09-02,2687.50,Acme Corp,Storage Addon,APAC,completed,credit_card,Referral discount applied
+TXN-2024-0277,2024-07-06,445.64,Acme Corp,Enterprise Plan,EU-WEST,completed,paypal,
+TXN-2024-0278,2024-11-18,2307.96,Green Valley LLC,Pro Plan,APAC,refunded,paypal,
+TXN-2024-0279,2024-03-26,189.25,Golden Gate LLC,Storage Addon,EU-WEST,completed,credit_card,New customer
+TXN-2024-0280,2024-12-01,2475.45,Northern Wind Co,Enterprise Plan,APAC,completed,paypal,
+TXN-2024-0281,2024-01-18,3482.18,Red Mountain Co,Pro Plan,APAC,completed,paypal,Monthly subscription
+TXN-2024-0282,2024-06-08,2350.71,Iron Bridge Corp,Basic Plan,US-EAST,pending,paypal,Annual renewal
+TXN-2024-0283,2024-08-23,447.11,Northern Wind Co,Basic Plan,US-EAST,pending,paypal,Referral discount applied
+TXN-2024-0284,2024-11-04,93.60,Sunset Labs,API Addon,US-WEST,refunded,credit_card,Referral discount applied
+TXN-2024-0285,2024-03-01,455.21,Golden Gate LLC,Pro Plan,APAC,completed,credit_card,Upgrade from basic
+TXN-2024-0286,2024-10-17,2722.39,Golden Gate LLC,Pro Plan,EU-WEST,refunded,credit_card,
+TXN-2024-0287,2024-02-20,72.54,Silver Stream Inc,Storage Addon,EU-WEST,completed,bank_transfer,
+TXN-2024-0288,2024-12-10,2534.85,Green Valley LLC,Storage Addon,EU-WEST,completed,credit_card,Upgrade from basic
+TXN-2024-0289,2024-06-08,106.63,Acme Corp,Storage Addon,APAC,completed,paypal,
+TXN-2024-0290,2024-04-14,444.84,TechStart Inc,Enterprise Plan,US-WEST,completed,bank_transfer,Annual renewal
+TXN-2024-0291,2024-02-06,2334.74,Iron Bridge Corp,API Addon,US-WEST,completed,paypal,New customer
+TXN-2024-0292,2024-03-03,140.03,Blue Ocean Ltd,Basic Plan,APAC,completed,paypal,
+TXN-2024-0293,2024-01-26,95.11,TechStart Inc,Pro Plan,US-WEST,completed,paypal,Upgrade from basic
+TXN-2024-0294,2024-09-23,89.30,Golden Gate LLC,Basic Plan,APAC,completed,credit_card,Referral discount applied
+TXN-2024-0295,2024-06-09,3249.78,Red Mountain Co,API Addon,US-EAST,completed,credit_card,Monthly subscription
+TXN-2024-0296,2024-12-07,101.70,Golden Gate LLC,Pro Plan,EU-WEST,refunded,credit_card,Upgrade from basic
+TXN-2024-0297,2024-06-06,67.66,Acme Corp,Pro Plan,APAC,pending,credit_card,New customer
+TXN-2024-0298,2024-10-11,3212.18,Northern Wind Co,Enterprise Plan,APAC,completed,credit_card,New customer
+TXN-2024-0299,2024-12-26,2927.81,Green Valley LLC,Basic Plan,APAC,completed,bank_transfer,Referral discount applied
+TXN-2024-0300,2024-02-26,2587.60,Red Mountain Co,Storage Addon,US-EAST,completed,paypal,
+TXN-2024-0301,2024-02-13,2584.72,Green Valley LLC,API Addon,EU-WEST,completed,bank_transfer,Upgrade from basic
+TXN-2024-0302,2024-11-19,106.68,Green Valley LLC,API Addon,US-EAST,completed,bank_transfer,Annual renewal
+TXN-2024-0303,2024-02-01,437.63,Northern Wind Co,Basic Plan,US-WEST,completed,credit_card,New customer
+TXN-2024-0304,2024-01-09,72.98,Iron Bridge Corp,Storage Addon,US-EAST,completed,credit_card,Annual renewal
+TXN-2024-0305,2024-09-16,2900.55,Iron Bridge Corp,Storage Addon,US-WEST,completed,bank_transfer,
+TXN-2024-0306,2024-06-12,460.77,Acme Corp,Pro Plan,APAC,refunded,credit_card,New customer
+TXN-2024-0307,2024-02-22,82.07,Northern Wind Co,Storage Addon,US-WEST,refunded,credit_card,Referral discount applied
+TXN-2024-0308,2024-12-03,77.73,Silver Stream Inc,Enterprise Plan,EU-WEST,completed,credit_card,Upgrade from basic
+TXN-2024-0309,2024-11-27,147.42,Sunset Labs,API Addon,US-WEST,completed,credit_card,
+TXN-2024-0310,2024-06-05,2300.79,Acme Corp,API Addon,US-WEST,refunded,credit_card,Upgrade from basic
+TXN-2024-0311,2024-11-25,89.76,Blue Ocean Ltd,Pro Plan,US-EAST,pending,paypal,
+TXN-2024-0312,2024-08-05,446.98,Blue Ocean Ltd,API Addon,US-WEST,completed,credit_card,Annual renewal
+TXN-2024-0313,2024-01-23,406.01,Iron Bridge Corp,Pro Plan,APAC,completed,paypal,
+TXN-2024-0314,2024-04-16,92.36,Northern Wind Co,Storage Addon,EU-WEST,completed,credit_card,
+TXN-2024-0315,2024-07-14,2978.36,Northern Wind Co,Storage Addon,US-WEST,completed,credit_card,
+TXN-2024-0316,2024-06-11,80.00,Sunset Labs,Pro Plan,US-WEST,pending,paypal,Referral discount applied
+TXN-2024-0317,2024-12-19,81.96,Acme Corp,Enterprise Plan,APAC,refunded,bank_transfer,Upgrade from basic
+TXN-2024-0318,2024-05-20,70.45,TechStart Inc,Basic Plan,US-WEST,refunded,credit_card,
+TXN-2024-0319,2024-01-18,462.53,Sunset Labs,Enterprise Plan,US-WEST,completed,bank_transfer,Monthly subscription
+TXN-2024-0320,2024-02-15,2538.32,Red Mountain Co,Basic Plan,APAC,refunded,credit_card,Upgrade from basic
+TXN-2024-0321,2024-06-27,196.10,Red Mountain Co,Storage Addon,APAC,pending,credit_card,Monthly subscription
+TXN-2024-0322,2024-10-11,423.77,Silver Stream Inc,Basic Plan,US-WEST,completed,paypal,Referral discount applied
+TXN-2024-0323,2024-01-04,2679.55,Northern Wind Co,Enterprise Plan,EU-WEST,completed,credit_card,
+TXN-2024-0324,2024-07-02,108.53,Iron Bridge Corp,Enterprise Plan,US-EAST,completed,credit_card,
+TXN-2024-0325,2024-03-23,2494.68,Silver Stream Inc,Pro Plan,APAC,completed,paypal,
+TXN-2024-0326,2024-06-16,409.12,Green Valley LLC,Storage Addon,APAC,refunded,paypal,
+TXN-2024-0327,2024-07-17,462.57,Golden Gate LLC,Basic Plan,US-EAST,completed,credit_card,New customer
+TXN-2024-0328,2024-07-28,199.41,Green Valley LLC,Enterprise Plan,US-EAST,completed,paypal,Upgrade from basic
+TXN-2024-0329,2024-03-03,445.49,Green Valley LLC,Enterprise Plan,US-WEST,completed,credit_card,Upgrade from basic
+TXN-2024-0330,2024-03-26,2693.04,Green Valley LLC,Storage Addon,US-EAST,completed,credit_card,Upgrade from basic
+TXN-2024-0331,2024-04-28,426.43,Acme Corp,Pro Plan,EU-WEST,completed,credit_card,
+TXN-2024-0332,2024-10-17,2902.65,Acme Corp,Pro Plan,EU-WEST,completed,paypal,
+TXN-2024-0333,2024-06-16,2322.89,Blue Ocean Ltd,API Addon,US-WEST,completed,paypal,
+TXN-2024-0334,2024-10-07,92.70,Red Mountain Co,Basic Plan,US-WEST,completed,credit_card,Upgrade from basic
+TXN-2024-0335,2024-10-25,2288.18,Acme Corp,Pro Plan,US-EAST,refunded,credit_card,
+TXN-2024-0336,2024-12-01,90.58,Iron Bridge Corp,Storage Addon,US-EAST,completed,credit_card,New customer
+TXN-2024-0337,2024-08-16,420.69,Green Valley LLC,API Addon,EU-WEST,refunded,credit_card,Upgrade from basic
+TXN-2024-0338,2024-05-06,97.98,Golden Gate LLC,Basic Plan,US-EAST,refunded,bank_transfer,New customer
+TXN-2024-0339,2024-06-13,456.67,Iron Bridge Corp,Enterprise Plan,US-WEST,refunded,credit_card,Upgrade from basic
+TXN-2024-0340,2024-12-28,100.14,Sunset Labs,Pro Plan,US-EAST,completed,paypal,Annual renewal
+TXN-2024-0341,2024-03-17,77.48,Green Valley LLC,API Addon,EU-WEST,completed,paypal,Upgrade from basic
+TXN-2024-0342,2024-01-27,480.12,Silver Stream Inc,Enterprise Plan,APAC,completed,paypal,New customer
+TXN-2024-0343,2024-06-24,153.08,Golden Gate LLC,Enterprise Plan,US-WEST,completed,credit_card,
+TXN-2024-0344,2024-11-21,89.91,Silver Stream Inc,Enterprise Plan,EU-WEST,completed,credit_card,Upgrade from basic
+TXN-2024-0345,2024-07-22,98.33,Silver Stream Inc,Pro Plan,US-EAST,completed,paypal,
+TXN-2024-0346,2024-06-11,150.57,Blue Ocean Ltd,Basic Plan,US-EAST,completed,paypal,
+TXN-2024-0347,2024-01-20,204.68,Acme Corp,Storage Addon,APAC,pending,paypal,New customer
+TXN-2024-0348,2024-11-18,70.04,TechStart Inc,Enterprise Plan,EU-WEST,completed,credit_card,Monthly subscription
+TXN-2024-0349,2024-07-22,209.04,Blue Ocean Ltd,Storage Addon,APAC,completed,credit_card,
+TXN-2024-0350,2024-10-08,78.86,Green Valley LLC,Storage Addon,APAC,completed,paypal,Upgrade from basic
+TXN-2024-0351,2024-07-02,2348.40,TechStart Inc,API Addon,APAC,refunded,bank_transfer,
+TXN-2024-0352,2024-04-27,2898.91,Golden Gate LLC,Enterprise Plan,APAC,pending,credit_card,New customer
+TXN-2024-0353,2024-09-06,104.33,Blue Ocean Ltd,Enterprise Plan,APAC,completed,credit_card,Upgrade from basic
+TXN-2024-0354,2024-01-18,2276.87,TechStart Inc,Storage Addon,EU-WEST,completed,credit_card,Annual renewal
+TXN-2024-0355,2024-02-16,3139.96,Green Valley LLC,Pro Plan,US-WEST,completed,credit_card,Referral discount applied
+TXN-2024-0356,2024-04-26,141.05,Sunset Labs,API Addon,US-WEST,completed,credit_card,Referral discount applied
+TXN-2024-0357,2024-07-11,475.46,Sunset Labs,Basic Plan,EU-WEST,refunded,paypal,Referral discount applied
+TXN-2024-0358,2024-10-24,76.37,Silver Stream Inc,Storage Addon,APAC,completed,bank_transfer,Referral discount applied
+TXN-2024-0359,2024-05-01,76.86,Silver Stream Inc,API Addon,APAC,completed,paypal,Monthly subscription
+TXN-2024-0360,2024-02-21,3499.47,Acme Corp,Storage Addon,US-EAST,completed,credit_card,
+TXN-2024-0361,2024-10-14,203.16,TechStart Inc,Storage Addon,US-WEST,refunded,paypal,Annual renewal
+TXN-2024-0362,2024-10-16,3358.55,Silver Stream Inc,Pro Plan,APAC,completed,paypal,Upgrade from basic
+TXN-2024-0363,2024-03-06,2333.61,Blue Ocean Ltd,Pro Plan,US-WEST,completed,credit_card,New customer
+TXN-2024-0364,2024-07-23,97.04,Iron Bridge Corp,Storage Addon,US-WEST,refunded,credit_card,New customer
+TXN-2024-0365,2024-06-20,2501.18,Acme Corp,Pro Plan,US-WEST,completed,paypal,
+TXN-2024-0366,2024-04-03,2385.75,Green Valley LLC,Pro Plan,US-WEST,completed,credit_card,
+TXN-2024-0367,2024-06-16,108.76,Silver Stream Inc,API Addon,US-WEST,completed,paypal,New customer
+TXN-2024-0368,2024-10-08,2918.28,Silver Stream Inc,Pro Plan,US-EAST,completed,credit_card,New customer
+TXN-2024-0369,2024-06-26,3351.58,Sunset Labs,Pro Plan,EU-WEST,pending,bank_transfer,
+TXN-2024-0370,2024-08-21,452.86,Green Valley LLC,Enterprise Plan,US-WEST,completed,credit_card,Annual renewal
+TXN-2024-0371,2024-04-20,433.73,Blue Ocean Ltd,Enterprise Plan,US-WEST,completed,paypal,Upgrade from basic
+TXN-2024-0372,2024-12-28,2721.66,Iron Bridge Corp,Basic Plan,EU-WEST,completed,credit_card,Annual renewal
+TXN-2024-0373,2024-01-19,3228.80,Golden Gate LLC,Pro Plan,EU-WEST,refunded,bank_transfer,Referral discount applied
+TXN-2024-0374,2024-10-12,99.67,Northern Wind Co,Basic Plan,APAC,completed,credit_card,Annual renewal
+TXN-2024-0375,2024-03-06,211.23,Northern Wind Co,Pro Plan,US-EAST,completed,bank_transfer,Annual renewal
+TXN-2024-0376,2024-04-23,157.70,Iron Bridge Corp,Pro Plan,US-EAST,completed,paypal,New customer
+TXN-2024-0377,2024-02-05,2928.50,Iron Bridge Corp,Pro Plan,US-EAST,pending,credit_card,Referral discount applied
+TXN-2024-0378,2024-06-04,149.29,Green Valley LLC,Basic Plan,EU-WEST,pending,bank_transfer,Annual renewal
+TXN-2024-0379,2024-01-22,69.41,Red Mountain Co,Storage Addon,EU-WEST,refunded,credit_card,
+TXN-2024-0380,2024-07-07,472.28,Acme Corp,API Addon,US-EAST,pending,credit_card,Upgrade from basic
+TXN-2024-0381,2024-03-05,491.70,Acme Corp,Basic Plan,US-WEST,completed,credit_card,Annual renewal
+TXN-2024-0382,2024-08-22,472.84,Sunset Labs,API Addon,US-WEST,completed,bank_transfer,New customer
+TXN-2024-0383,2024-07-25,100.42,Northern Wind Co,API Addon,US-WEST,pending,credit_card,Upgrade from basic
+TXN-2024-0384,2024-08-19,3514.50,TechStart Inc,Basic Plan,US-EAST,completed,credit_card,Monthly subscription
+TXN-2024-0385,2024-09-20,2499.71,Red Mountain Co,Enterprise Plan,US-WEST,pending,credit_card,
+TXN-2024-0386,2024-02-23,3167.37,Sunset Labs,Storage Addon,US-WEST,refunded,credit_card,Annual renewal
+TXN-2024-0387,2024-12-12,101.14,Golden Gate LLC,Basic Plan,APAC,completed,paypal,Monthly subscription
+TXN-2024-0388,2024-01-22,218.89,TechStart Inc,Enterprise Plan,APAC,completed,bank_transfer,Referral discount applied
+TXN-2024-0389,2024-02-14,91.18,Iron Bridge Corp,Pro Plan,US-EAST,completed,credit_card,Referral discount applied
+TXN-2024-0390,2024-11-02,79.31,Blue Ocean Ltd,API Addon,EU-WEST,completed,bank_transfer,
+TXN-2024-0391,2024-03-12,94.57,Blue Ocean Ltd,Storage Addon,EU-WEST,completed,credit_card,
+TXN-2024-0392,2024-02-21,2514.96,Blue Ocean Ltd,Pro Plan,APAC,completed,bank_transfer,
+TXN-2024-0393,2024-05-16,2332.25,TechStart Inc,Enterprise Plan,US-WEST,completed,bank_transfer,
+TXN-2024-0394,2024-05-24,2470.10,Green Valley LLC,Enterprise Plan,EU-WEST,completed,credit_card,
+TXN-2024-0395,2024-12-04,179.87,Iron Bridge Corp,Pro Plan,EU-WEST,completed,paypal,Monthly subscription
+TXN-2024-0396,2024-12-22,433.41,Silver Stream Inc,API Addon,EU-WEST,completed,bank_transfer,
+TXN-2024-0397,2024-05-13,95.78,TechStart Inc,Storage Addon,APAC,completed,credit_card,New customer
+TXN-2024-0398,2024-12-10,2681.18,Blue Ocean Ltd,API Addon,EU-WEST,completed,credit_card,Referral discount applied
+TXN-2024-0399,2024-12-23,183.08,Green Valley LLC,Basic Plan,EU-WEST,completed,credit_card,
+TXN-2024-0400,2024-10-11,3396.86,Golden Gate LLC,API Addon,US-WEST,completed,paypal,
+TXN-2024-0401,2024-12-27,441.26,Blue Ocean Ltd,Storage Addon,US-WEST,completed,bank_transfer,Upgrade from basic
+TXN-2024-0402,2024-09-10,2476.16,Silver Stream Inc,Enterprise Plan,US-WEST,completed,bank_transfer,Annual renewal
+TXN-2024-0403,2024-07-19,214.85,Acme Corp,Pro Plan,US-EAST,pending,credit_card,Referral discount applied
+TXN-2024-0404,2024-10-07,150.96,Sunset Labs,Storage Addon,US-WEST,refunded,bank_transfer,New customer
+TXN-2024-0405,2024-08-07,107.82,Green Valley LLC,Pro Plan,EU-WEST,completed,credit_card,New customer
+TXN-2024-0406,2024-12-24,185.95,Iron Bridge Corp,Pro Plan,EU-WEST,refunded,credit_card,
+TXN-2024-0407,2024-05-20,2886.79,TechStart Inc,Enterprise Plan,US-EAST,completed,paypal,Annual renewal
+TXN-2024-0408,2024-05-27,162.74,Red Mountain Co,API Addon,APAC,completed,credit_card,New customer
+TXN-2024-0409,2024-06-05,2406.32,Red Mountain Co,Storage Addon,US-EAST,completed,credit_card,Annual renewal
+TXN-2024-0410,2024-10-19,77.83,TechStart Inc,Basic Plan,APAC,pending,credit_card,
+TXN-2024-0411,2024-05-26,2488.84,Iron Bridge Corp,Basic Plan,US-WEST,completed,credit_card,
+TXN-2024-0412,2024-07-25,151.55,Green Valley LLC,Pro Plan,US-WEST,completed,credit_card,
+TXN-2024-0413,2024-11-12,200.83,TechStart Inc,Basic Plan,EU-WEST,pending,credit_card,Annual renewal
+TXN-2024-0414,2024-06-15,3026.91,Silver Stream Inc,API Addon,APAC,completed,paypal,
+TXN-2024-0415,2024-07-26,468.73,Green Valley LLC,API Addon,US-WEST,refunded,credit_card,
+TXN-2024-0416,2024-02-25,90.69,Northern Wind Co,Pro Plan,APAC,completed,credit_card,New customer
+TXN-2024-0417,2024-02-22,80.48,Sunset Labs,Enterprise Plan,EU-WEST,completed,bank_transfer,New customer
+TXN-2024-0418,2024-04-28,108.50,Red Mountain Co,Enterprise Plan,EU-WEST,completed,bank_transfer,
+TXN-2024-0419,2024-02-11,2611.00,Green Valley LLC,Enterprise Plan,APAC,completed,credit_card,
+TXN-2024-0420,2024-12-04,2743.03,Golden Gate LLC,Basic Plan,EU-WEST,completed,paypal,Annual renewal
+TXN-2024-0421,2024-10-04,2389.48,Blue Ocean Ltd,Storage Addon,EU-WEST,completed,paypal,Annual renewal
+TXN-2024-0422,2024-06-06,2961.30,Green Valley LLC,Pro Plan,APAC,completed,paypal,Referral discount applied
+TXN-2024-0423,2024-04-20,204.87,Golden Gate LLC,Basic Plan,US-WEST,completed,credit_card,Upgrade from basic
+TXN-2024-0424,2024-09-18,449.49,Northern Wind Co,Enterprise Plan,US-EAST,completed,credit_card,Upgrade from basic
+TXN-2024-0425,2024-02-20,92.46,Acme Corp,Enterprise Plan,US-EAST,completed,paypal,Annual renewal
+TXN-2024-0426,2024-02-28,2562.72,Blue Ocean Ltd,Basic Plan,APAC,completed,credit_card,Annual renewal
+TXN-2024-0427,2024-08-27,81.68,Golden Gate LLC,Enterprise Plan,US-EAST,completed,credit_card,Upgrade from basic
+TXN-2024-0428,2024-07-04,101.73,Green Valley LLC,Storage Addon,EU-WEST,pending,bank_transfer,Annual renewal
+TXN-2024-0429,2024-09-15,2368.99,Sunset Labs,Basic Plan,US-EAST,completed,bank_transfer,Annual renewal
+TXN-2024-0430,2024-12-22,474.09,Red Mountain Co,Enterprise Plan,US-WEST,completed,bank_transfer,
+TXN-2024-0431,2024-03-23,445.34,Red Mountain Co,API Addon,EU-WEST,refunded,credit_card,
+TXN-2024-0432,2024-01-18,3078.85,Golden Gate LLC,Pro Plan,US-WEST,refunded,credit_card,Referral discount applied
+TXN-2024-0433,2024-06-17,3167.85,Iron Bridge Corp,Pro Plan,APAC,completed,bank_transfer,
+TXN-2024-0434,2024-06-28,145.36,Iron Bridge Corp,Enterprise Plan,US-WEST,completed,bank_transfer,Annual renewal
+TXN-2024-0435,2024-11-24,105.83,Acme Corp,Enterprise Plan,APAC,pending,credit_card,Monthly subscription
+TXN-2024-0436,2024-09-16,91.07,Silver Stream Inc,Basic Plan,APAC,pending,credit_card,New customer
+TXN-2024-0437,2024-11-23,450.30,Green Valley LLC,Enterprise Plan,US-WEST,refunded,credit_card,Upgrade from basic
+TXN-2024-0438,2024-10-11,106.00,Silver Stream Inc,Enterprise Plan,EU-WEST,completed,credit_card,Referral discount applied
+TXN-2024-0439,2024-09-12,2321.93,Green Valley LLC,API Addon,US-EAST,completed,paypal,Referral discount applied
+TXN-2024-0440,2024-01-26,472.54,Northern Wind Co,Enterprise Plan,APAC,pending,credit_card,Referral discount applied
+TXN-2024-0441,2024-10-03,204.84,Green Valley LLC,Storage Addon,US-WEST,completed,credit_card,New customer
+TXN-2024-0442,2024-06-18,104.13,Blue Ocean Ltd,Pro Plan,US-WEST,completed,paypal,Monthly subscription
+TXN-2024-0443,2024-08-13,2304.66,Sunset Labs,Pro Plan,US-WEST,completed,credit_card,Referral discount applied
+TXN-2024-0444,2024-01-10,99.98,Golden Gate LLC,API Addon,US-EAST,refunded,bank_transfer,Referral discount applied
+TXN-2024-0445,2024-07-27,2252.99,Northern Wind Co,Enterprise Plan,EU-WEST,completed,credit_card,New customer
+TXN-2024-0446,2024-11-18,104.51,TechStart Inc,Basic Plan,EU-WEST,refunded,credit_card,Annual renewal
+TXN-2024-0447,2024-04-12,144.97,TechStart Inc,API Addon,APAC,pending,credit_card,New customer
+TXN-2024-0448,2024-05-18,215.01,Northern Wind Co,Basic Plan,US-EAST,completed,bank_transfer,Referral discount applied
+TXN-2024-0449,2024-05-02,206.97,Sunset Labs,Pro Plan,APAC,pending,credit_card,Referral discount applied
+TXN-2024-0450,2024-04-16,89.33,Northern Wind Co,API Addon,APAC,completed,credit_card,Upgrade from basic
+TXN-2024-0451,2024-06-26,492.58,Silver Stream Inc,Storage Addon,EU-WEST,completed,bank_transfer,
+TXN-2024-0452,2024-02-26,2271.09,Iron Bridge Corp,Enterprise Plan,EU-WEST,completed,credit_card,Upgrade from basic
+TXN-2024-0453,2024-09-09,144.66,Sunset Labs,Pro Plan,US-EAST,completed,credit_card,Monthly subscription
+TXN-2024-0454,2024-06-23,3121.29,Red Mountain Co,Enterprise Plan,US-EAST,completed,bank_transfer,Annual renewal
+TXN-2024-0455,2024-02-02,91.48,Green Valley LLC,Basic Plan,APAC,completed,credit_card,Referral discount applied
+TXN-2024-0456,2024-03-22,142.45,Acme Corp,API Addon,US-WEST,completed,credit_card,Annual renewal
+TXN-2024-0457,2024-01-15,138.82,Red Mountain Co,Pro Plan,US-EAST,pending,paypal,New customer
+TXN-2024-0458,2024-11-09,2263.92,Blue Ocean Ltd,Pro Plan,US-EAST,completed,paypal,Referral discount applied
+TXN-2024-0459,2024-09-10,96.07,Sunset Labs,Basic Plan,APAC,completed,credit_card,
+TXN-2024-0460,2024-01-05,412.41,Acme Corp,Enterprise Plan,US-EAST,completed,bank_transfer,Referral discount applied
+TXN-2024-0461,2024-07-26,3219.17,Red Mountain Co,API Addon,APAC,pending,bank_transfer,New customer
+TXN-2024-0462,2024-07-23,410.16,Blue Ocean Ltd,API Addon,APAC,completed,paypal,New customer
+TXN-2024-0463,2024-08-23,102.97,Northern Wind Co,Pro Plan,US-EAST,completed,paypal,Upgrade from basic
+TXN-2024-0464,2024-01-01,75.85,Green Valley LLC,Pro Plan,EU-WEST,completed,bank_transfer,Monthly subscription
+TXN-2024-0465,2024-04-07,79.05,Silver Stream Inc,Basic Plan,US-WEST,completed,credit_card,
+TXN-2024-0466,2024-08-14,158.48,Silver Stream Inc,Storage Addon,APAC,completed,credit_card,
+TXN-2024-0467,2024-07-05,69.91,Blue Ocean Ltd,Storage Addon,APAC,completed,paypal,
+TXN-2024-0468,2024-03-01,160.54,Silver Stream Inc,Storage Addon,US-WEST,completed,paypal,Referral discount applied
+TXN-2024-0469,2024-08-26,2630.13,TechStart Inc,Basic Plan,US-WEST,completed,credit_card,New customer
+TXN-2024-0470,2024-08-16,99.97,Iron Bridge Corp,API Addon,US-WEST,completed,credit_card,
+TXN-2024-0471,2024-01-07,185.30,Red Mountain Co,Pro Plan,US-EAST,pending,bank_transfer,Referral discount applied
+TXN-2024-0472,2024-05-15,101.02,TechStart Inc,Basic Plan,US-EAST,completed,credit_card,
+TXN-2024-0473,2024-11-23,2574.27,Acme Corp,Storage Addon,APAC,completed,credit_card,Upgrade from basic
+TXN-2024-0474,2024-02-19,3078.06,Golden Gate LLC,Storage Addon,US-EAST,completed,bank_transfer,Annual renewal
+TXN-2024-0475,2024-04-25,3411.04,TechStart Inc,Basic Plan,EU-WEST,completed,bank_transfer,New customer
+TXN-2024-0476,2024-03-18,107.01,Green Valley LLC,Storage Addon,US-EAST,completed,credit_card,Upgrade from basic
+TXN-2024-0477,2024-07-21,475.47,Iron Bridge Corp,Enterprise Plan,EU-WEST,completed,paypal,
+TXN-2024-0478,2024-10-12,163.95,Red Mountain Co,Enterprise Plan,US-WEST,completed,credit_card,Annual renewal
+TXN-2024-0479,2024-11-15,95.84,Green Valley LLC,Storage Addon,US-WEST,pending,bank_transfer,
+TXN-2024-0480,2024-04-27,443.23,Acme Corp,Storage Addon,EU-WEST,completed,credit_card,Annual renewal
+TXN-2024-0481,2024-05-19,459.99,Sunset Labs,Storage Addon,US-WEST,completed,credit_card,Monthly subscription
+TXN-2024-0482,2024-01-01,456.67,Blue Ocean Ltd,API Addon,EU-WEST,completed,credit_card,Monthly subscription
+TXN-2024-0483,2024-02-21,2590.89,Golden Gate LLC,Pro Plan,EU-WEST,refunded,credit_card,Annual renewal
+TXN-2024-0484,2024-01-14,3430.99,Golden Gate LLC,Basic Plan,US-WEST,pending,bank_transfer,
+TXN-2024-0485,2024-01-07,99.15,Iron Bridge Corp,Storage Addon,US-WEST,refunded,credit_card,Annual renewal
+TXN-2024-0486,2024-07-21,2282.90,Acme Corp,Enterprise Plan,US-EAST,completed,bank_transfer,New customer
+TXN-2024-0487,2024-12-16,104.19,Silver Stream Inc,Pro Plan,APAC,completed,paypal,
+TXN-2024-0488,2024-10-01,412.87,Red Mountain Co,API Addon,EU-WEST,completed,bank_transfer,Monthly subscription
+TXN-2024-0489,2024-07-06,100.35,Golden Gate LLC,API Addon,EU-WEST,completed,credit_card,
+TXN-2024-0490,2024-09-18,3449.65,Silver Stream Inc,Enterprise Plan,EU-WEST,completed,credit_card,Referral discount applied
+TXN-2024-0491,2024-12-22,406.95,Red Mountain Co,Basic Plan,EU-WEST,completed,credit_card,Referral discount applied
+TXN-2024-0492,2024-08-26,74.87,TechStart Inc,Storage Addon,US-EAST,refunded,credit_card,Annual renewal
+TXN-2024-0493,2024-05-20,68.05,Northern Wind Co,Basic Plan,APAC,pending,credit_card,
+TXN-2024-0494,2024-01-04,440.91,Blue Ocean Ltd,Pro Plan,US-WEST,completed,credit_card,Referral discount applied
+TXN-2024-0495,2024-01-11,192.34,TechStart Inc,Enterprise Plan,US-WEST,completed,credit_card,
+TXN-2024-0496,2024-10-14,101.13,Sunset Labs,API Addon,US-WEST,pending,credit_card,New customer
+TXN-2024-0497,2024-10-06,181.01,Acme Corp,Storage Addon,APAC,completed,paypal,
+TXN-2024-0498,2024-12-17,68.47,Acme Corp,Storage Addon,US-WEST,completed,credit_card,New customer
+TXN-2024-0499,2024-03-02,79.10,Acme Corp,Basic Plan,US-EAST,completed,credit_card,New customer
+TXN-2024-0500,2024-12-18,2353.58,Golden Gate LLC,Pro Plan,US-EAST,completed,paypal,
+TXN-2024-0501,2024-05-15,106.02,Silver Stream Inc,Storage Addon,APAC,completed,paypal,Annual renewal
+TXN-2024-0502,2024-02-17,143.03,Silver Stream Inc,Enterprise Plan,EU-WEST,completed,credit_card,
+TXN-2024-0503,2024-10-14,2434.12,Silver Stream Inc,Enterprise Plan,US-WEST,completed,credit_card,Referral discount applied
+TXN-2024-0504,2024-03-17,419.68,TechStart Inc,Storage Addon,APAC,completed,credit_card,
+TXN-2024-0505,2024-12-02,202.97,Northern Wind Co,Enterprise Plan,EU-WEST,pending,credit_card,
+TXN-2024-0506,2024-04-09,468.72,TechStart Inc,API Addon,US-WEST,pending,paypal,
+TXN-2024-0507,2024-08-09,2289.45,Sunset Labs,Pro Plan,APAC,refunded,credit_card,Upgrade from basic
+TXN-2024-0508,2024-10-08,199.00,Northern Wind Co,Pro Plan,APAC,completed,credit_card,Referral discount applied
+TXN-2024-0509,2024-12-09,2389.83,Acme Corp,Basic Plan,EU-WEST,completed,credit_card,Annual renewal
+TXN-2024-0510,2024-06-05,2634.86,Silver Stream Inc,Storage Addon,US-WEST,completed,bank_transfer,
+TXN-2024-0511,2024-01-04,74.82,Green Valley LLC,API Addon,EU-WEST,completed,bank_transfer,New customer
+TXN-2024-0512,2024-06-03,415.41,Blue Ocean Ltd,Basic Plan,US-WEST,completed,paypal,Annual renewal
+TXN-2024-0513,2024-07-06,93.67,Acme Corp,Enterprise Plan,EU-WEST,completed,credit_card,Upgrade from basic
+TXN-2024-0514,2024-05-28,477.45,Silver Stream Inc,Storage Addon,EU-WEST,refunded,paypal,Upgrade from basic
+TXN-2024-0515,2024-09-19,204.24,TechStart Inc,Enterprise Plan,US-EAST,completed,paypal,Monthly subscription
+TXN-2024-0516,2024-07-10,142.97,Green Valley LLC,Enterprise Plan,APAC,refunded,credit_card,
+TXN-2024-0517,2024-03-03,70.57,Iron Bridge Corp,Basic Plan,US-WEST,completed,credit_card,New customer
+TXN-2024-0518,2024-05-20,2901.57,TechStart Inc,API Addon,US-EAST,completed,credit_card,Monthly subscription
+TXN-2024-0519,2024-02-05,73.90,Blue Ocean Ltd,API Addon,EU-WEST,pending,bank_transfer,
+TXN-2024-0520,2024-06-23,108.56,Red Mountain Co,Pro Plan,US-EAST,completed,credit_card,Annual renewal
+TXN-2024-0521,2024-07-04,198.37,Northern Wind Co,Enterprise Plan,EU-WEST,completed,paypal,
+TXN-2024-0522,2024-04-27,483.29,Blue Ocean Ltd,API Addon,APAC,refunded,bank_transfer,New customer
+TXN-2024-0523,2024-09-03,2686.43,Sunset Labs,Basic Plan,EU-WEST,completed,credit_card,Upgrade from basic
+TXN-2024-0524,2024-05-21,438.49,TechStart Inc,Enterprise Plan,APAC,completed,credit_card,Annual renewal
+TXN-2024-0525,2024-01-05,483.54,Northern Wind Co,API Addon,US-EAST,refunded,bank_transfer,Annual renewal
+TXN-2024-0526,2024-05-19,188.68,Sunset Labs,API Addon,US-EAST,completed,credit_card,
+TXN-2024-0527,2024-04-17,464.22,Sunset Labs,API Addon,US-WEST,completed,paypal,
+TXN-2024-0528,2024-07-20,417.05,Northern Wind Co,Enterprise Plan,EU-WEST,completed,paypal,Referral discount applied
+TXN-2024-0529,2024-05-28,3002.97,Blue Ocean Ltd,Storage Addon,US-WEST,pending,paypal,Referral discount applied
+TXN-2024-0530,2024-03-23,98.40,Sunset Labs,Pro Plan,EU-WEST,completed,paypal,New customer
+TXN-2024-0531,2024-01-01,150.76,Red Mountain Co,Storage Addon,US-WEST,completed,credit_card,
+TXN-2024-0532,2024-01-06,465.65,Acme Corp,API Addon,US-EAST,completed,credit_card,Monthly subscription
+TXN-2024-0533,2024-11-10,2391.30,Green Valley LLC,Enterprise Plan,APAC,completed,credit_card,
+TXN-2024-0534,2024-12-12,154.51,Silver Stream Inc,API Addon,APAC,pending,paypal,Referral discount applied
+TXN-2024-0535,2024-02-15,77.98,Golden Gate LLC,Enterprise Plan,APAC,completed,credit_card,
+TXN-2024-0536,2024-09-16,3359.46,Northern Wind Co,Basic Plan,APAC,completed,credit_card,Monthly subscription
+TXN-2024-0537,2024-08-20,144.74,Blue Ocean Ltd,Pro Plan,US-WEST,refunded,paypal,Upgrade from basic
+TXN-2024-0538,2024-11-16,99.27,Sunset Labs,Storage Addon,US-WEST,completed,paypal,Annual renewal
+TXN-2024-0539,2024-04-02,420.59,Sunset Labs,Enterprise Plan,US-EAST,completed,credit_card,Annual renewal
+TXN-2024-0540,2024-04-26,420.71,Silver Stream Inc,Basic Plan,US-WEST,refunded,paypal,Annual renewal
+TXN-2024-0541,2024-01-15,97.10,Blue Ocean Ltd,API Addon,APAC,completed,credit_card,Annual renewal
+TXN-2024-0542,2024-11-12,213.10,Silver Stream Inc,API Addon,US-WEST,completed,credit_card,
+TXN-2024-0543,2024-12-21,3169.45,TechStart Inc,Basic Plan,US-WEST,completed,credit_card,
+TXN-2024-0544,2024-01-11,150.34,Acme Corp,Storage Addon,APAC,pending,paypal,Referral discount applied
+TXN-2024-0545,2024-08-02,140.81,Green Valley LLC,Pro Plan,US-WEST,completed,credit_card,Upgrade from basic
+TXN-2024-0546,2024-03-03,147.98,Northern Wind Co,Enterprise Plan,US-WEST,completed,bank_transfer,New customer
+TXN-2024-0547,2024-03-27,143.13,Golden Gate LLC,Basic Plan,EU-WEST,refunded,credit_card,
+TXN-2024-0548,2024-04-27,481.33,Red Mountain Co,API Addon,US-EAST,completed,credit_card,Referral discount applied
+TXN-2024-0549,2024-01-10,148.46,Northern Wind Co,Pro Plan,EU-WEST,completed,credit_card,Referral discount applied
+TXN-2024-0550,2024-01-05,435.32,Green Valley LLC,Basic Plan,US-WEST,completed,credit_card,Annual renewal
+

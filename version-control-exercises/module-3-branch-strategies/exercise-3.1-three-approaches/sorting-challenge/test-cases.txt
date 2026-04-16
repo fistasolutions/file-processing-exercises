@@ -1,0 +1,37 @@
+# Test Cases for Sorting Challenge
+# Use these to verify your sorting implementations are correct.
+
+=== TEST 1: Sort by Score (Descending) — First 5 Records ===
+Expected output (top 5 highest scores):
+Nelson, Elizabeth, 2024-03-07, 99
+Roberts, Angela, 2024-09-09, 98
+Lee, Jennifer, 2024-04-27, 97
+Murphy, Teresa, 2024-06-13, 97
+Young, Kevin, 2024-02-28, 96
+
+=== TEST 2: Sort by Score (Descending) — Last 3 Records ===
+Expected output (bottom 3 lowest scores):
+Adams, Katherine, 2024-12-09, 68
+Robinson, Michelle, 2024-03-29, 67
+Parker, Lisa, 2024-06-29, 66
+
+=== TEST 3: Sort by Date (Chronological) — First 5 Records ===
+Expected output (earliest 5 dates):
+Lewis, Daniel, 2024-01-05, 93
+Cooper, Russell, 2024-01-14, 91
+Baker, Steven, 2024-01-19, 82
+Anderson, Michael, 2024-01-22, 92
+Collins, Timothy, 2024-01-30, 93
+
+=== TEST 4: Sort by Name (Alphabetical) — First 5 Records ===
+Expected output (first 5 alphabetically by last name):
+Adams, Katherine, 2024-12-09, 68
+Anderson, Michael, 2024-01-22, 92
+Bailey, Jeffrey, 2024-10-28, 74
+Baker, Steven, 2024-01-19, 82
+Bell, Gary, 2024-08-06, 69
+
+=== TEST 5: Sort by Name (Alphabetical) — Last 3 Records ===
+Expected output (last 3 alphabetically by last name):
+Wright, Thomas, 2024-05-06, 74
+Young, Kevin, 2024-02-28, 96

@@ -1,0 +1,28 @@
+"""OLD VERSION - app.py from before the March refactor.
+Keeping this just in case. - Dave"""
+
+from flask import Flask, jsonify, request
+import os
+
+app = Flask(__name__)
+
+API_KEY = os.getenv("API_KEY", "FAKE-old-api-key-for-exercise")
+
+@app.route("/health")
+def health():
+    return jsonify({"status": "ok"})
+
+@app.route("/users", methods=["GET"])
+def get_users():
+    # Old endpoint - no auth, no pagination
+    return jsonify({"users": []})
+
+@app.route("/users", methods=["POST"])
+def create_user():
+    data = request.get_json()
+    if not data.get("name"):
+        return jsonify({"error": "name required"}), 400
+    return jsonify({"id": "new", "name": data["name"]}), 201
+
+if __name__ == "__main__":
+    app.run(debug=True)

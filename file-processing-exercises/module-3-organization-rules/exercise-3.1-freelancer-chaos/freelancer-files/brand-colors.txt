@@ -1,0 +1,1 @@
+Brand color palette: Primary #2563EB, Secondary #10B981, Accent #F59E0B, Dark #1F2937, Light #F9FAFB

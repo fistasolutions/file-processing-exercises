@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <rect width="800" height="200" fill="#2563eb"/>
+  <text x="400" y="110" text-anchor="middle" font-family="Arial" font-size="48" fill="white">
+    Data Pipeline Service
+  </text>
+  <text x="400" y="150" text-anchor="middle" font-family="Arial" font-size="18" fill="#93c5fd">
+    Internal Dashboard Banner
+  </text>
+</svg>

@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Set up CI/CD pipeline",
+    "description": "Configure GitHub Actions for automated testing and deployment",
+    "priority": "high"
+  },
+  {
+    "title": "Write API documentation",
+    "description": "Document all endpoints with request/response examples",
+    "priority": "medium"
+  },
+  {
+    "title": "Add user authentication",
+    "description": "Implement JWT-based auth for API endpoints",
+    "priority": "critical"
+  },
+  {
+    "title": "Optimize database queries",
+    "description": "Add indexes and review slow queries",
+    "priority": "medium"
+  },
+  {
+    "title": "Create dashboard UI",
+    "description": "Build a simple web dashboard for task management",
+    "priority": "low"
+  },
+  {
+    "title": "Set up monitoring",
+    "description": "Add Prometheus metrics and Grafana dashboards",
+    "priority": "medium"
+  },
+  {
+    "title": "Write unit tests",
+    "description": "Achieve 80% code coverage with pytest",
+    "priority": "high"
+  },
+  {
+    "title": "Deploy to staging",
+    "description": "Set up staging environment on cloud provider",
+    "priority": "high"
+  }
+]

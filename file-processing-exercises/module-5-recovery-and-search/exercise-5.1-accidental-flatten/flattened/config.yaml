@@ -1,0 +1,11 @@
+app:
+  name: task-tracker
+  version: 3.0.0
+  debug: false
+  port: 5000
+
+database:
+  url: sqlite:///tasks.db
+
+logging:
+  level: INFO

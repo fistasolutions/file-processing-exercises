@@ -1,0 +1,14 @@
+{
+    "version": "1.0.0",
+    "app_name": "Weather Tracker",
+    "api_key": "FAKE-weather-api-key-for-exercise",
+    "db_password": "FAKE-database-password-for-exercise",
+    "data_source": "local_csv",
+    "refresh_interval_minutes": 30,
+    "stations": ["WS-001", "WS-002"],
+    "units": {
+        "temperature": "celsius",
+        "wind_speed": "kmh",
+        "pressure": "hpa"
+    }
+}

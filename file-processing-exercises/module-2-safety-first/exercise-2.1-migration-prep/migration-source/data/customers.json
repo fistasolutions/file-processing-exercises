@@ -1,0 +1,45 @@
+[
+  {
+    "id": "C001",
+    "name": "Acme Corp",
+    "plan": "enterprise",
+    "region": "US-EAST"
+  },
+  { "id": "C002", "name": "TechStart Inc", "plan": "pro", "region": "US-WEST" },
+  {
+    "id": "C003",
+    "name": "Green Valley LLC",
+    "plan": "basic",
+    "region": "US-EAST"
+  },
+  {
+    "id": "C004",
+    "name": "Blue Ocean Ltd",
+    "plan": "pro",
+    "region": "EU-WEST"
+  },
+  {
+    "id": "C005",
+    "name": "Red Mountain Co",
+    "plan": "enterprise",
+    "region": "APAC"
+  },
+  {
+    "id": "C006",
+    "name": "Silver Stream Inc",
+    "plan": "basic",
+    "region": "US-WEST"
+  },
+  {
+    "id": "C007",
+    "name": "Golden Gate LLC",
+    "plan": "pro",
+    "region": "US-WEST"
+  },
+  {
+    "id": "C008",
+    "name": "Iron Bridge Corp",
+    "plan": "enterprise",
+    "region": "EU-WEST"
+  }
+]

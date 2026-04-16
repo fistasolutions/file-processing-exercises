@@ -1,0 +1,15 @@
+app:
+  name: task-manager
+  version: 2.0.1
+  debug: false
+
+database:
+  path: tasks.db
+  backup_interval: 24h
+
+api:
+  rate_limit: 100
+  timeout: 30
+  cors_origins:
+    - http://localhost:3000
+    - https://tasks.example.com

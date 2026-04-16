@@ -1,0 +1,15 @@
+Weather Tracker — Personal TODO
+================================
+
+[ ] Add support for hourly data (currently daily only)
+[ ] Build a simple CLI menu for filtering by station
+[ ] Add wind chill calculation for winter readings
+[ ] Export summary as JSON file (not just print)
+[ ] Try using matplotlib for temperature graphs
+[ ] Ask Claude Code to help refactor summarize() into smaller functions
+
+Random notes:
+- The CSV format works fine for now, might switch to SQLite later
+- WS-002 seems to have higher wind speeds — check if it's coastal
+- Remember: config.json has the API key in it, don't share publicly!
+- Meeting with team on Friday about adding real-time data feeds

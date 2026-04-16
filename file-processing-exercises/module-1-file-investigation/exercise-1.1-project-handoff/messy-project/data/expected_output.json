@@ -1,0 +1,21 @@
+{
+  "summary": {
+    "total_employees": 15,
+    "active": 13,
+    "inactive": 2,
+    "departments": {
+      "Engineering": 7,
+      "Marketing": 3,
+      "Sales": 3,
+      "HR": 2
+    }
+  },
+  "salary_stats": {
+    "average": 83800,
+    "median": 76000,
+    "min": 67000,
+    "max": 110000
+  },
+  "processed_at": "2024-04-15T10:30:00Z",
+  "pipeline_version": "1.2.0"
+}
